@@ -1,0 +1,2 @@
+class LoginIp < ApplicationRecord
+end

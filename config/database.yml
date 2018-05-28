@@ -1,0 +1,27 @@
+default: &default
+  adapter: postgresql
+encoding: utf8
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: blog_develop
+  pool: 5
+  username: username
+  password: password
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: blog_test
+  pool: 5
+  username: username
+  password: password
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: blog_develop
+  pool: 5
+  username: username
+  password: password
